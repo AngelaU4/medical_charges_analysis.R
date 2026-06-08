@@ -6,7 +6,7 @@ This project provides an end-to-end exploratory and descriptive data analysis (E
 The analysis is developed entirely in R, showcasing data cleaning, automated risk alerting systems, advanced descriptive statistics, and multi-variable data visualizations.
 
 ## 🛠️ Project Structure & R Script Workflow
-The core analysis script (`healthcare-insurance-risk-analysis1-2 and healthcare-insurance-risk-analysis1 `) is structured into sequential, production-ready blocks:
+The core analysis script (`healthcare-insurance-risk-analysis and healthcare-insurance-risk-analysis1 `) is structured into sequential, production-ready blocks:
 * **Data Cleansing & Wrangling (Steps 1-4):** Package management (`tidyverse`), cloud data ingestion, dimensional auditing, and data quality filtering (handling missing values and structural duplicates).
 * **Automated Risk Engine (Step 6):** An iterative conditional pipeline (`for` loops and nested `if/else` logic) that categorizes patient BMI into clinical risk states.
 * **Advanced Descriptive Analytics (Step 8):** Quantitative evaluation of central tendency, dispersion (variance and standard deviation), and distribution geometry (skewness and kurtosis using the `e1071` library).
